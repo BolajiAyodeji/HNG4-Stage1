@@ -3,31 +3,34 @@
            <meta name="description" content="HTML5 CSS3">
            <meta name="viewport" content="width=device-width, initial-scale=1">
            <style>
-               body{text-align: left;
-               font-size: 250%;
-               background:url("bg.jpg");
-               background-size: 100%;
+               body{
+               font-size: 200%;
+               background: url(bgimage.jpg);
+               background-position: center; 
+               background-size: cover;
                background-repeat: no-repeat;
-               position:relative;
                color:#E5E5E6;
+               height:100%;
                }
                    #text1{
                        font-family: arial;
                        font-size:80%;
-                       color:white
+                       color:#333333
                }
                #h4{
-                   color:green
+                   color:#F2C94C;
+                   font-size:145%;
                }
            </style>
-           <h4 id=h4> <bold> &nbsp; &nbsp; &nbsp; &nbsp; HNG INTERNSHIP 4.0 </bold> </h4>
-           <body>
+           <body> 
+               <br />
+           <h4 id=h4> &nbsp; &nbsp; &nbsp; &nbsp; <bold> HNG INTERNSHIP 4.0 </bold> </h4>
+           <div style="color:#333333 ; text-align:center; font-size:100%";>
            <br /> <br /> <br />
-           <div style="text-align:center";>
            <h4 id="text1">Time:</h4>
            <?php echo date("h:i:s:A") ;?>
            <h4 id="text1">Date:</h4>
-           <?php echo  date("l:F:dS:Y") ;?>
+           <?php echo date("l:F:dS:Y") ;?>
             </div>
            </body>
        </html>
