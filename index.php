@@ -13,19 +13,19 @@
                height:100%;
                }
                    #text1{
-                       font-family: arial;
+                       font-family: roboto;
                        font-size:80%;
                        color:#333333
                }
                #h4{
-                   color:#F2C94C;
+                   color:black;
                    font-size:145%;
                }
            </style>
            <body> 
                <br />
            <h4 id=h4> &nbsp; &nbsp; &nbsp; &nbsp; <bold> HNG INTERNSHIP 4.0 </bold> </h4>
-           <div style="color:#333333 ; text-align:center; font-size:100%";>
+           <div style="color:#333333 ; text-align:left; font-size:100%";>
            <br /> <br /> <br />
            <h4 id="text1">Time:</h4>
            <?php echo date("h:i:s:A") ;?>
