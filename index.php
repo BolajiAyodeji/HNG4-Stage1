@@ -1,3 +1,4 @@
+       <!DOCTYPE html>
        <html lang="en-US">
            <meta name="author" content="Bolaji Ayodeji">
            <meta name="description" content="HTML5 CSS3">
